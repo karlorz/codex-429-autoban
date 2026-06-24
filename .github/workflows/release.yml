@@ -78,6 +78,7 @@ jobs:
 
       - name: Pack zip (library at zip root) — Windows
         if: matrix.goos == 'windows'
+        id: pack
         run: |
           New-Item -ItemType Directory -Force -Path staging | Out-Null
           Copy-Item codex-429-autoban.${{ matrix.ext }} staging/
