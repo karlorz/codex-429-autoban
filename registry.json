@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "codex-429-autoban",
+      "name": "Codex 429 Auto Ban",
+      "description": "Auto-disables Codex credentials on 429 and auto re-enables them after the exhausted rate-limit window refreshes, using upstream x-codex-* response headers.",
+      "author": "karlorz",
+      "version": "0.1.1",
+      "repository": "https://github.com/karlorz/codex-429-autoban",
+      "homepage": "https://github.com/karlorz/codex-429-autoban",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Codex"
+      ]
+    }
+  ]
+}
